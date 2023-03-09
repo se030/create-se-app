@@ -1,0 +1,37 @@
+{
+  "name": "create-se-app",
+  "description": "create productive scaffold for a web application project",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "create-se-app": "dist/index.mjs"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "template",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/se030/create-se-app.git",
+    "directory": "/"
+  },
+  "author": "se030.kim@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/se030/create-se-app/issues"
+  },
+  "homepage": "https://github.com/se030/create-se-app#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "kolorist": "^1.7.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "rollup": "^3.18.0"
+  }
+}
