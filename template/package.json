@@ -12,8 +12,8 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "prettier --write",
-      "eslint --config ./.eslintrc --fix"
+      "npx prettier --write",
+      "npx eslint --config ./.eslintrc --fix"
     ]
   },
   "dependencies": {
@@ -27,7 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "@vitejs/plugin-react": "^3.1.0",
-    "eslint": "^8.34.0",
+    "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-import-order": "^2.1.4",
