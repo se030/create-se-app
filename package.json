@@ -6,13 +6,14 @@
   "bin": {
     "create-se-app": "dist/index.mjs"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
-    "index.js",
+    "src",
     "template",
     "dist"
   ],
   "scripts": {
+    "dev": "node src/index.js",
     "build": "rollup -c"
   },
   "repository": {
