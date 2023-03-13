@@ -1,18 +1,19 @@
 {
   "name": "create-se-app",
   "description": "bin script to create a productive scaffold for a web client project",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "type": "module",
   "bin": {
     "create-se-app": "dist/index.mjs"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
-    "index.js",
+    "src",
     "template",
     "dist"
   ],
   "scripts": {
+    "dev": "node src/index.js",
     "build": "rollup -c"
   },
   "repository": {
